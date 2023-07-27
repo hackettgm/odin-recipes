@@ -1,3 +1,43 @@
-h3, h1{font size:36px; color:red}
+*{font-family: Arial, Helvetica, sans-serif;}
+h3,h1{font-size:50px; color:red}
+ul, ol, body{font-size: 22px;}
 
-.ingredients{background-color: blanchedalmond; font-size: 22px;}
+
+img{width:400px; height:auto;}
+
+body{
+    height:fit-content;
+    width: 1400px;
+    border: 2px solid red;
+    display: block;
+    align-items: center;
+}
+
+
+.content,.description,.title{
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 20px;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    box-sizing: border-box;
+}
+.ingredients,.optional,.steps,img{
+    height:fit-content;
+    width:400px;
+    border: 3px solid red;
+    background-color: beige;
+    padding: 20px;
+    margin: 2px;
+}
+.description div{
+    color:green;
+    background-color: purple;
+    height: fit-content;
+    margin-top: 20px;
+   
+    }
+.description h3{background-color: green;
+margin:auto 50px;}
